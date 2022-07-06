@@ -23,7 +23,7 @@ body {
     position: absolute;
     width: 820px;
     height: 150px;
-    left: 307px;
+    left: 270px;
     top: 174px;
     font-family: 'inter';
     font-style: normal;
@@ -36,10 +36,6 @@ body {
 
 .pray-for-shylet {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 307px;
-    top: 300px;
     font-family: 'poppins';
     font-style: regular;
     font-weight: 100;
@@ -49,7 +45,7 @@ body {
     Width: 700px;
     Height: 56px;
     Top: 352px;
-    Left: 375px;
+    Left: 340px;
     color: white;
     text-align: center;
 }
@@ -221,4 +217,106 @@ body {
     text-align: center;
     margin: 20px;
     font-weight: lighter;
+}
+
+.flexbox1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.flexbox1 .box1 {
+    height: 352px;
+    width: 360px;
+    background-color: #4F9DA61A;
+    text-align: left;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+.flexbox1 .box1 h1 {
+    font-family: 'inter';
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.flexbox1 .box1 p {
+    font-family: 'poppins';
+    font-weight: lighter;
+    margin-left: 20px;
+    font-size: small;
+    line-height: 20px;
+}
+
+.flexbox1 .box1 img {
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.flexbox1 .box2 {
+    height: 352px;
+    width: 360px;
+    background-color: rgba(102, 51, 153, 0.116);
+    text-align: left;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+.flexbox1 .box2 h1 {
+    font-family: 'inter';
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.flexbox1 .box2 p {
+    font-family: 'poppins';
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: small;
+    line-height: 20px;
+}
+
+.flexbox1 .box2 img {
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+
+.flexbox1 .box3 {
+    height: 352px;
+    width: 360px;
+    background-color: rgba(255, 0, 0, 0.089);
+    text-align: left;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+.flexbox1 .box3 h1 {
+    font-family: 'inter';
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.flexbox1 .box3 p {
+    font-family: 'poppins';
+    font-weight: lighter;
+    margin-left: 20px;
+    font-size: small;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.flexbox1 .box3 img {
+    height: 53px;
+    width: 53px;
+    margin-left: 20px;
+    margin-top: 70px;
 }
