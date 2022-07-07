@@ -109,6 +109,13 @@ body {
     color: white;
 }
 
+button {
+    box-sizing: border-box;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
 .box2 {
     height: 70px;
     width: 150px;
